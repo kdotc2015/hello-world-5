@@ -10,6 +10,8 @@ LT_INIT
 
 AC_PROG_CC
 
+PKG_CHECK_MODULES([MODBUS],[libmodbus])
+
 AC_CONFIG_FILES([
     Makefile
     src/Makefile
